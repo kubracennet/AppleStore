@@ -11,6 +11,7 @@
 		F6B87DB929D37302000CED27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B87DB829D37302000CED27 /* ContentView.swift */; };
 		F6B87DBB29D37306000CED27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B87DBA29D37306000CED27 /* Assets.xcassets */; };
 		F6B87DBE29D37306000CED27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B87DBD29D37306000CED27 /* Preview Assets.xcassets */; };
+		F6B87DC529D3806C000CED27 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B87DC429D3806C000CED27 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		F6B87DB829D37302000CED27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6B87DBA29D37306000CED27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B87DBD29D37306000CED27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6B87DC429D3806C000CED27 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		F6B87DC629D382E0000CED27 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		F6B87DAA29D37302000CED27 = {
 			isa = PBXGroup;
 			children = (
+				F6B87DC629D382E0000CED27 /* Configuration.storekit */,
 				F6B87DB529D37302000CED27 /* AppleStore */,
 				F6B87DB429D37302000CED27 /* Products */,
 			);
@@ -53,6 +57,7 @@
 			children = (
 				F6B87DB629D37302000CED27 /* AppleStoreApp.swift */,
 				F6B87DB829D37302000CED27 /* ContentView.swift */,
+				F6B87DC429D3806C000CED27 /* Store.swift */,
 				F6B87DBA29D37306000CED27 /* Assets.xcassets */,
 				F6B87DBC29D37306000CED27 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B87DC529D3806C000CED27 /* Store.swift in Sources */,
 				F6B87DB929D37302000CED27 /* ContentView.swift in Sources */,
 				F6B87DB729D37302000CED27 /* AppleStoreApp.swift in Sources */,
 			);
